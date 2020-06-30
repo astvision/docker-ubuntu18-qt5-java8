@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  ubuntu-qt5:
+    container_name: ast-ubuntu-qt5-java
+    image: ast-ubuntu-qt5-java
+    hostname: ast-ubuntu-qt5-java
+    restart: always
+    networks:
+      - ast_starter
+    logging:
+      driver: "json-file"
+      options:
+        max-file: "5"
+        max-size: 10m
+
+networks:
+  ast_starter:
+    driver: bridge
