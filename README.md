@@ -1,4 +1,4 @@
-Ubuntu 16.04 xenial with qt5 and openjdk-8
+Ubuntu 18.04 bionic with qt5 and openjdk-8
 
 ### Build docker image
 ```
