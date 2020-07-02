@@ -3,7 +3,8 @@ version: "3.7"
 services:
   ubuntu-qt5:
     container_name: ast-ubuntu-qt5-java
-    image: ast-ubuntu-qt5-java
+    #image: ast-ubuntu-qt5-java
+    image: astvision/ubuntu-qt5-java8
     hostname: ast-ubuntu-qt5-java
     restart: always
     networks:
